@@ -1,15 +1,25 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-align: center;
+}
+
+.logo  {
+    text-align: center;
+}
+
+.logo  img {
+    max-width: 50%; 
+    max-height: 300px;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #0c1218;
 }
 
 .content {
     width: 100vw;
-    height: 100vh;
+    height: 70%;
     padding: 1rem;
     background-color: #fff;
 }
@@ -21,4 +31,5 @@ body {
         margin: 1rem auto;
         border-radius: 1rem;
     }
+    
 }

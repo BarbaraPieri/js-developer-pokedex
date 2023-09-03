@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.pokemons :hover{
+    background-color: #f0e384;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -144,6 +148,10 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+.pagination :hover {
+    background-color: #a6a877;
 }
 
 @media screen and (min-width: 380px) {
